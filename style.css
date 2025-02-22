@@ -506,7 +506,7 @@ span1 {
 
     .real-name { 
         position: fixed;
-        top: -75px; 
+        top: -15px; 
         transform: translateX(-50%); 
         font-size: 1.6em;
         margin: 0 0 10px 0;
