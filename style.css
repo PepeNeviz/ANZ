@@ -508,8 +508,10 @@ span1 {
     .real-name {
         position: absolute;
         top: 120px;
+        left: 50%;
         transform: translateX(-50%);
-        margin-top: 20px;
+        font-size: 1.6em;
+        text-align: center;
     }
     
     .des1-3 {
