@@ -509,6 +509,7 @@ span1 {
         position: absolute;
         top: 120px;
         transform: translateX(-50%);
+        margin-top: 20px;
     }
     
     .des1-3 {
