@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 html {
@@ -515,7 +514,7 @@ span1 {
     
     .des1-3 {
         position: relative;
-        margin-top: -70px;
+        margin-top: 0;
         margin-bottom: 10px;
         font-size: 0.8em;
     }
