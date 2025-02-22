@@ -505,12 +505,11 @@ span1 {
         display: grid;
     }
 
-    .real-name { 
-        position: relative;
-        top: -80px;
-        transform: translateX(-50%); 
-        font-size: 1.6em;
-        margin: 0 0 100px 0;
+    .real-name {
+    position: relative; 
+    font-size: 1.6em;
+    margin-top: -50px;
+    text-align: center;
     }
     
     .des1-3 {
