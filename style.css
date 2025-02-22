@@ -495,7 +495,7 @@ span1 {
     }
 
     .profile-pictures img {
-        width: 10px;
+        width: 100px;
         height: 100px;
         padding: 50px;
     }
@@ -504,9 +504,9 @@ span1 {
         display: grid;
     }
 
-    .real-name {
-        position: absolute; 
-        top: 0; 
+    .real-name { 
+        position: relative;
+        top: -40px; 
         transform: translateX(-50%); 
         font-size: 1.6em;
         margin: 30px 0 30px 0;
