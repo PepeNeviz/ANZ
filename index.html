@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ANZ AJAH</title>
+</head>
+<body>
+    
+    <nav>
+
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+
+            <a class="home-link" href="#home">ANZ</a>
+            <a class="right-link" href="#about">About</a>
+            <a class="right-link" href="#member">Member</a>
+            <a class="right-link" href="#sejarah">Sejarah</a>
+        </div>
+
+    </nav>
+
+    <section id="home" class="home">
+
+        <div class="home-content">
+            <h1>ANZ AJAH</h1>
+            <p>&nbsp;&nbsp;&nbsp;WELCOME DI WEBSITE RESMI <span>ANZ</span>:<br>Di sinilah tempat anda untuk mengetahui <span>info-info</span> yang telah kami sediakan di sini. (WEB INI DIBUAT HANYA UNTUK HIBURAN)</p>
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+
+        <div class="about-content">
+            <h1>ABOUT</h1>
+            <p>&nbsp;&nbsp;&nbsp;Welcome di website resmi <span>ANZ!</span>. dimana anda bisa mencari tahu <span>Informasi</span> yang sudah kami sediakan di sini, Mulai dari informasi para <span>Member</span>, Sedikit sejarah terciptanya <span>ANZ</span>, Dan lain sebagainya. Selamat menikmati website yang telah kami buat ini, <span>THANK YOU</span><span1>!!</span1>.</p>
+        </div>
+
+    </section>
+
+    <section id="member" class="member">
+
+        <div class="member-content">
+            <h1>MEMBER ANZ😎</h1>
+
+            <div class="container">
+                <div class="info-section">
+                    <h2 id="name">
+                        <div class="opening-text" id="opening-text">Click gambar untuk melihat data</div>
+                        <div class="real-name" id="real-name" style="display: none;"></div>
+                    </h2>
+                    
+                    <div class="des1-3">
+                        <p id="description1"></p>
+                        <p id="description2"></p>
+                        <p id="description3"></p>
+                    </div>
+
+                    <p id="description10" class="sosmed"></p>
+
+                    <div class="info-section-under">
+                        <div class="left-section">
+                            <img id="description4" src="" alt="Profile Image 1" style="display: none; width: 120px; height: 120px;">
+                            <p id="description5"></p>
+                        </div>
+                        <div class="right-section">
+                            <img id="description6" src="" alt="Profile Image 2" style="display: none; width: 120px; height: 120px;">
+                            <p id="description7"></p>
+                            <p id="description8"></p>
+                            <p id="description9"></p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="profile-pictures">
+                    <img class="profil-1" src="" alt="Profile 1"
+                        onclick="updateInfo('Abdud', '25 April 2009', 'Hobi Silat', 'Moto : Hidup adalah perjalanan jalani saja', '<a href=\'https://www.instagram.com/dhohyr/\' target=\'_blank\'>@dhohyr</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : bokimsemith', 'Role : Junggle', 'Hero : Julian')">
+
+                    <img class="profil-2" src="" alt="Profile 2" 
+                        onclick="updateInfo('Aliyyi', '24 Februari 2009', 'Hobi Mengaji', 'Moto : Ngantuk = tidur', '<a href=\'https://www.instagram.com/li.kb44r/\' target=\'_blank\'>@li.kb44r</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : VEEVOID', 'Role : Mid Lane', 'Hero : Zhuxin')">
+
+                    <img class="profil-3" src="" alt="Profile 3" 
+                        onclick="updateInfo('Bedil', '07 Juni 2008', 'Hobi Muzik', 'Moto : Menjadikan hidup sebagai tujuan pelajaran untuk sukses di masa hadapan', '<a href=\'https://pepeneviz.github.io/ANZ/ga_ada.html\' target=\'_blank\'>Ga ada</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : momoshiki', 'Role : XP', 'Hero : Gusion')">
+
+                    <img class="profil-4" src="" alt="Profile 4" 
+                        onclick="updateInfo('Fachriza', '9 Juni 2009', 'Hobi Baca buku', 'Moto : fokus ke depan, lupakan yang lalu', '<a href=\'https://www.instagram.com/fchrzaswif_/\' target=\'_blank\'>@fchrzaswift_</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : 多imz  no  gf', 'Role : ALL ROLE', 'Hero : Balmond')">
+
+                    <img class="profil-5" src="" alt="Profile 5" 
+                        onclick="updateInfo('Bintang', '1 Juli 2009', 'Hobi Bermain musik', 'Moto : Tindakan adalah kunci menuju kesuksesan.', '<a href=\'https://www.instagram.com/almuto_/\' target=\'_blank\'>@almuto_</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : King Muto', 'Role : Gold Lane', 'Hero : Wanwan')">
+
+                    <img class="profil-6" src="" alt="Profile 6" 
+                        onclick="updateInfo('Bagas', '08 Januari 2009', 'Hobi Menggambar', 'Moto : Jika kamu punya masalah ya bukan masalah ku', '<a href=\'https://www.instagram.com/babas_ajhh/\' target=\'_blank\'>@babas_ajhh</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : ~Lesson☆Five', 'Role : Mid Lane', 'Hero : Cecilion')">
+
+                    <img class="profil-7" src="" alt="Profile 7" 
+                        onclick="updateInfo('Obed', '16 Februari 2009', 'Hobi Main ML & Futsal', 'Moto : Main bened sampe global', '<a href=\'https://www.instagram.com/chad.rr_/\' target=\'_blank\'>@chad.rr_</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : Chd Always Sleep', 'Role : ALL ROLE', 'Hero : Benet🤘')">
+
+                    <img class="profil-8" src="" alt="Profile 8" 
+                        onclick="updateInfo('Rady', '13 Desember 2008', 'Hobi Mewing tiap hari', 'Ga ada moto hidup🗿', '<a href=\'https://www.instagram.com/rfqii_279/\' target=\'_blank\'>@rfqii_279</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : RadyHunter ', 'Role : XP', 'Hero : Yu Zhong')">
+
+                    <img class="profil-9" src="" alt="Profile 9" 
+                        onclick="updateInfo('Jibun', '1 Juli 2008', 'Hobi Dukung EMYU', 'Moto : Hidup harus seru, kalau gak seru mending usah hidup', '<a href=\'https://www.instagram.com/rafif_jibun/\' target=\'_blank\'>@rafif_jibun</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : Rafif Jibun', 'Role : XP', 'Hero : Khalled')">
+
+                    <img class="profil-10" src="" alt="Profile 10" 
+                        onclick="updateInfo('Raka', '5 Agustus 2008', 'Hobi Hospot ke IAMM', 'Moto : People come & go', '<a href=\'https://www.instagram.com/itsmeegusta/\' target=\'_blank\'>@itsmeegusta</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : ~•BunniePuppet•~', 'Role : ALL ROLE', 'Hero : ALL HERO')">
+
+                    <img class="profil-11" src="" alt="Profile 11" 
+                        onclick="updateInfo('Wanda', '27 Desember 2008', 'Hobi Nonton drakor & main game', 'Moto : Harus esemgete apapun yang terjadi', '<a href=\'https://www.instagram.com/wandanzraa_/\' target=\'_blank\'>@wandanzraa_</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : Ndaa Lyonére', 'Role : ROAM', 'Hero : Carmila')">
+
+                    <img class="profil-12" src="" alt="Profile 12" 
+                        onclick="updateInfo('Sulthaan', '10 Januari 2009', 'Hobi Mobil', 'Moto : Ulah paeh saacan naek mobil sorangan.', '<a href=\'https://www.instagram.com/21.sulthaan/\' target=\'_blank\'>@21.sulthaan</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : Kenshó the MC!', 'Role : XP', 'Hero : Yu Zhong')">
+
+                    <img class="profil-13" src="" alt="Profile 13" 
+                        onclick="updateInfo('Arafa', '24 Maret 2010', 'Hobi Baca manga', 'Moto : Motivasi tanpa aksi hanyalah halusinasi', '<a href=\'https://pepeneviz.github.io/ANZ/ga_ada.html\' target=\'_blank\'>Ga ada</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : 絶Zetsumei命', 'Role : Roam', 'Hero : Batank')">
+
+                    <img class="profil-14" src="" alt="Profile 14" 
+                        onclick="updateInfo('Nazril', '18 Januari 2010', 'Hobi main game, rebahan', 'Gaada sekian terimkasih', '<a href=\'https://pepeneviz.github.io/ANZ/ga_ada.html\' target=\'_blank\'>Ga ada</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : zpenaka', 'Role : Gold Lane', 'Hero : Brody')">
+
+                    <img class="profil-15" src="" alt="Profile 15" 
+                        onclick="updateInfo('Ziven', '28 Agustus 2009', 'Hobi Nganggur', 'Moto : Gausah stress', '<a href=\'https://www.instagram.com/pepenevis/\' target=\'_blank\'>@pepenevis</a>', 'ig-icon.png', 'IG & ML', 'ml-icon.webp', 'Name : Neviz Always Lazy.', 'Role : ALL ROLE', 'Hero : Yin')">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="sejarah" class="sejarah">
+
+        <div class="sejarah-content">
+            <h1>SEJARAH ANZ</h1>
+            <p>&nbsp;&nbsp;&nbsp;Pada suatu hari, ada <span>3 Bocil Gabut</span> sedang asyik bermain game online. Di tengah kegabutan mereka, salah satu dari mereka mendapat ide cemerlang untuk memberikan <span>Nama Grup</span> bagi mereka. Setelah berdiskusi, mereka sepakat untuk menamakan grup mereka dengan nama <span>ANZ</span>, yang diambil dari <span>Awalan Nama Mereka</span>: <span>Arafa, Nazril, Ziven</span>. Mereka bertiga merasa senang dengan nama tersebut dan mulai menggunakannya seperti marga <span>ANZ</span> di berbagai game lain seperti <span>Mobile Legends, Free Fire, Stumble Guys</span>, dan lain-lain. TAMATT...</p>
+        </div>
+    
+    </section>
+
+    <section>
+        <div class="end">
+            <h5>
+                ANZ AJAH ©2025
+            </h5>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
