@@ -518,6 +518,7 @@ span1 {
         position: fixed;
         top: -30px;
         left: 50%; /* Pusatkan ke tengah */
+        margin-left: 50%;
         transform: translateX(-50%); /* Biar titik tengahnya pas */
         font-size: 1.6em;
     }
