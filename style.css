@@ -523,6 +523,7 @@ span1 {
         transform: translateX(-100%); /* Coba tweak ini */
         width: max-content;
         text-align: center;
+        justify-content: center;
         white-space: nowrap;
     }
    
