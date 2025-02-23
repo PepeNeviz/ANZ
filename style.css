@@ -510,18 +510,12 @@ span1 {
     #name {
         position: relative;
         align-items: center;
-        right: 50%;
     }
 
     .real-name {
-        position: absolute;
+        position: fixed;
         font-size: 1.6em;
         top: -20px;
-        right: 50%;
-        transform: translateX(50%);
-        width: max-content;
-        text-align: center;
-        white-space: nowrap;
     }
    
     .des1-3 {
