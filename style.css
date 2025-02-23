@@ -580,6 +580,8 @@ span1 {
         grid-column: 1;
         font-size: 1.2em;
         margin-left: 4px;
+        align-items: center;
+        justify-content: center;
     }
     
     #description7, #description8, #description9 {
