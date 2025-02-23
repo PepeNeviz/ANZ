@@ -512,10 +512,15 @@ span1 {
         align-items: center;
     }
 
-    .real-name {
+     .real-name {
         position: fixed;
         font-size: 1.6em;
         top: -20px;
+        right: 50%;
+        transform: translateX(50%);
+        width: max-content;
+        text-align: center;
+        white-space: nowrap;
     }
    
     .des1-3 {
