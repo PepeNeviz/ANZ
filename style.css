@@ -512,12 +512,12 @@ span1 {
 
     .real-name {
         position: absolute;
-        top: 0;
+        top: -30px; /* Atur lebih tinggi */
         left: 50%;
-        margin-top: -30px;
-        transform: translateY(-50%);
+        transform: translateX(-50%); /* Biar tetap tengah */
         font-size: 1.6em;
     }
+
     
     .des1-3 {
         position: relative;
