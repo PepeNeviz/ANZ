@@ -512,7 +512,7 @@ span1 {
 
     .real-name {
         position: absolute;
-        top: -30px;
+        top: -10%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 1.6em;
