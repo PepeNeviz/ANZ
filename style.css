@@ -506,19 +506,18 @@ span1 {
 
     #name {
         display: flex;
-        align-items: start;
+        justify-content: center;
+        align-items: flex-start; /* Biar teks naik */
         position: relative;
+        flex-direction: column;
     }
 
     .real-name {
-        position: absolute;
-        top: -30px; /* Atur lebih tinggi */
-        left: 50%;
-        transform: translateX(-50%); /* Biar tetap tengah */
+        position: relative;
         font-size: 1.6em;
+        top: -20px; /* Atur sesuai kebutuhan */
     }
-
-    
+   
     .des1-3 {
         position: relative;
         margin-top: 10px;
