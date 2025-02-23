@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 html {
     font-family: Arial, Helvetica, sans-serif;
     background: white;
@@ -517,7 +517,7 @@ span1 {
         font-size: 1.6em;
         top: -20px;
         right: 50%;
-        transform: translateX(50%);
+        transform: translateX(-50%);
         width: max-content;
         text-align: center;
         white-space: nowrap;
