@@ -507,6 +507,12 @@ span1 {
         justify-content: center;
     }
 
+    #name {
+        position: relative;
+        justify-content: center;
+        right: 50%;
+    }
+
     .real-name {
         position: fixed;
         font-size: 1.6em;
