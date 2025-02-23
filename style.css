@@ -513,7 +513,7 @@ span1 {
     }
 
     .real-name {
-    position: absolute; 
+    position: fixed;
     top: 0 !important; 
     transform: translateX(-50%); 
     font-size: 1.6em;
