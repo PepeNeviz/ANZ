@@ -513,13 +513,11 @@ span1 {
     }
 
     .real-name {
-        position: fixed;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 1.6em;
-        width: max-content;
-        text-align: center;
+    position: absolute; 
+    top: -30px !important; 
+    transform: translateX(-50%); 
+    font-size: 1.6em;
+    margin-top: -30px !important;
     }
    
     .des1-3 {
