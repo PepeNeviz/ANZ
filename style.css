@@ -501,7 +501,9 @@ span1 {
     }
 
     .info-section p {
-        display: grid;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
     }
 
     #name {
@@ -513,7 +515,7 @@ span1 {
     }
 
     .real-name {
-        position: relative;
+        position: fixed;
         font-size: 1.6em;
         top: -20px; /* Atur sesuai kebutuhan */
     }
@@ -528,6 +530,7 @@ span1 {
     
     .sosmed {
         text-align: center;
+        justify-content: center;
         font-weight: bold;
         margin: 50px 0 20px 0;
     }
