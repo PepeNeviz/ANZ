@@ -509,7 +509,7 @@ span1 {
 
     #name {
         position: relative;
-        justify-content: center;
+        align-items: center;
         right: 50%;
     }
 
