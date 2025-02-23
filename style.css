@@ -517,7 +517,8 @@ span1 {
     .real-name {
         position: fixed;
         font-size: 1.6em;
-        top: -20px; /* Atur sesuai kebutuhan */
+        top: -20px;
+        justify-content: center;
     }
    
     .des1-3 {
