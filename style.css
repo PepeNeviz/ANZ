@@ -507,14 +507,6 @@ span1 {
         justify-content: center;
     }
 
-    #name {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start; /* Biar teks naik */
-        position: relative;
-        flex-direction: column;
-    }
-
     .real-name {
         position: fixed;
         font-size: 1.6em;
