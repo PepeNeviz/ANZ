@@ -504,12 +504,16 @@ span1 {
         display: grid;
     }
 
+    #name {
+        position: relative;
+    }
+
     .real-name {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.6em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.6em;
     }
     
     .des1-3 {
