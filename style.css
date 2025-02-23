@@ -514,7 +514,7 @@ span1 {
     }
 
     .real-name {
-        position: fixed;
+        position: absolute;
         font-size: 1.6em;
         top: -20px;
         right: 50%;
