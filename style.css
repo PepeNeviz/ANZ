@@ -519,8 +519,8 @@ span1 {
         position: fixed;
         font-size: 1.6em;
         top: -20px;
-        left: 50%;
-        transform: translateX(-55%); /* Coba tweak ini */
+        left: 100%;
+        transform: translateX(-100%); /* Coba tweak ini */
         width: max-content;
         text-align: center;
         white-space: nowrap;
