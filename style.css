@@ -518,8 +518,8 @@ span1 {
     .real-name {
         position: fixed;
         top: -30px;
-        left: 200px;
-        transform: translateX(-50%); /* Biar titik tengahnya pas */
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 1.6em;
     }
    
