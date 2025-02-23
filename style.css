@@ -516,9 +516,10 @@ span1 {
 
     .real-name {
         position: fixed;
+        top: -30px;
+        left: 50%; /* Pusatkan ke tengah */
+        transform: translateX(-50%); /* Biar titik tengahnya pas */
         font-size: 1.6em;
-        top: -20px;
-        justify-content: center;
     }
    
     .des1-3 {
