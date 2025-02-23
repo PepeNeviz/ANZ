@@ -505,12 +505,14 @@ span1 {
     }
 
     #name {
+        display: flex;
+        align-items: start;
         position: relative;
     }
 
     .real-name {
         position: absolute;
-        top: 50%;
+        top: 0;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 1.6em;
